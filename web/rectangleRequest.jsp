@@ -14,11 +14,10 @@
     <body>
         
         <form id="calc" name="calc" method="POST" action="areaController">
-            name: <input type ="text"
-                         lenght ="length"
-                         width ="width"
-                         >
-            submit: <input type="submit"
-                           value ="areaRectangle">
+            Length: <input type ="text" id="length" name ="length">
+            
+            Width: <input type="text" id="width" name ="width">
+            <input type="submit" value ="Calculate">
+        </form>
     </body>
 </html>

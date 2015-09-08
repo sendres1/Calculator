@@ -2,9 +2,9 @@
  *This is the main controller for the Area Calculation App.
  * @author Steven
  */
-package AreaController;
+package controller;
 
-import Model.rectangleService;
+import model.RectangleService;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author Steven
  */
 @WebServlet(name = "areaController", urlPatterns = {"/areaController"})
-public class areaController extends HttpServlet {
+public class AreaController extends HttpServlet {
        private static final String RESULT_PAGE = "rectangleResult.jsp";
 
    
@@ -40,7 +40,7 @@ public class areaController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
+        doPost(request, response);
     }
 
     /**
@@ -61,13 +61,13 @@ public class areaController extends HttpServlet {
         // Here we're retrieving form content from form.html
        // String c = request.getParameter("color");
       //  String name = request.getParameter("form1");
-        String lenght = request.getParameter("lenght");
+        String lenght = request.getParameter("length");
         String width = request.getParameter("width");
         
         // Create a new instance of a model object
         // For some applications, we would not want to create a new one each time.
  //       BeerExpert be = new BeerExpert();
-        rectangleService rs = new rectangleService();
+        RectangleService rs = new RectangleService();
        
         // Always a good idea to trim and/or validate input data
         //List result = be.getBrands(c.trim());
