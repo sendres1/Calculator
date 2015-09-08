@@ -13,7 +13,7 @@
     </head>
     <body>
         
-        <form id="form1" name="form1" method="POST" action="rectangleArea">
+        <form id="calc" name="calc" method="POST" action="areaController">
             name: <input type ="text"
                          lenght ="length"
                          width ="width"
