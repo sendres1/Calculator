@@ -13,21 +13,29 @@ import java.util.List;
  * @author Steven
  */
 public class RectangleService {
-    
 
+    public List calcArea(String length, String width) {
+        double l = 0;
+        double w = 0;
+        double a = 0;
+List area = new ArrayList();
+        try {
 
-public List calcArea(String lenght, String width) {
-    double l = 0;
-    double w = 0;
-    double a = 0;
-    
-    l = Double.valueOf(lenght);
-    w = Double.valueOf(width);
-    
-            List area = new ArrayList();
+            l = Double.valueOf(length);
+            w = Double.valueOf(width);
+
+            
     //   greet.add("tryit");
-       area.add(a);
-        return area;
+
+            a = l * w;
+            area.add(a);
+
+            
+
+        } catch (NumberFormatException nfe) {
+
+        }
+return area;
+    }
+
 }
-        
-}     
