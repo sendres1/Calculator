@@ -23,6 +23,21 @@
             <input type="submit" value ="Calculate">
         </form>
         
+        <text> Area of Circle <text/>
+        <form id="calc" name="calc" method="POST" action="areaController3">
+            Radius: <input type ="text" id="length" name ="radius">
+            
+            <input type="submit" value ="Calculate">
+        </form>
+        
+        <text> Area of Triangle <text/>
+        <form id="calc" name="calc" method="POST" action="areaController3">
+            Base: <input type ="text" id="length" name ="base">
+            
+            Height: <input type="text" id="width" name ="height">
+            <input type="submit" value ="Calculate">
+        </form>
+        
         
         
         <p>
