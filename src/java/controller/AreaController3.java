@@ -69,7 +69,7 @@ public class AreaController3 extends HttpServlet {
        
         // Always a good idea to trim and/or validate input data
          
-        List result = rs.calcArea(lenght, width);
+         List result = rs.calcArea(lenght, width);
        
     
         // Parameters are read only Request object properties, but attributes
