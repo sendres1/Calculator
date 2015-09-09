@@ -28,7 +28,7 @@ List area = new ArrayList();
             w = Double.valueOf(width);
             
             a = l * w;
-            area.add(a);
+            //area.add(a);
             
             area.add("Area is " + a);
             
