@@ -21,7 +21,7 @@
             <input type="submit" value ="Calculate">
         </form>
         
-        <h1 align="center">Rectangle Result (JSP)</h1>
+        <h1 align="center">Rectangle and Result (JSP)</h1>
         
         <p>
 
