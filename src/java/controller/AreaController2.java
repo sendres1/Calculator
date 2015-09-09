@@ -59,33 +59,19 @@ public class AreaController2 extends HttpServlet {
     response.setContentType("text/html");
 
         // parameters are name attributes in view pages
-        // Here we're retrieving form content from form.html
-       // String c = request.getParameter("color");
-      //  String name = request.getParameter("form1");
+        // Here we're retrieving form content 
         String lenght = request.getParameter("length");
         String width = request.getParameter("width");
+       
         
-        // Create a new instance of a model object
         // For some applications, we would not want to create a new one each time.
- //       BeerExpert be = new BeerExpert();
         model.RectangleService rs = new model.RectangleService();
        
         // Always a good idea to trim and/or validate input data
-        //List result = be.getBrands(c.trim());
-        
-        //List result = ws.createGreeting(name.trim());
-      //  String s = ws.createGreeting(name.trim());
          
         List result = rs.calcArea(lenght, width);
        
-
-//  result.add(s);
-        
-       //String result = ws.createGreeting(name.trim());
-       
-       //Object result = s;
-
-       // i am here
+    
         // Parameters are read only Request object properties, but attributes
         // are read/write. We can use attributes to store data for use on
         // another page.
