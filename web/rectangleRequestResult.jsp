@@ -12,6 +12,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Request and Result</title>
     </head>
+    <h1 align="center">Rectangle and Result (JSP)</h1>
     <body>
         
         <form id="calc" name="calc" method="POST" action="areaController2">
@@ -21,7 +22,7 @@
             <input type="submit" value ="Calculate">
         </form>
         
-        <h1 align="center">Rectangle and Result (JSP)</h1>
+        
         
         <p>
 
