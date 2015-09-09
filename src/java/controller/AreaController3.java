@@ -62,8 +62,9 @@ List result=null;
 
     String submitType = request.getParameter("submit");
     out.println("submitType" + submitType);
+    
     if (submitType.equals("rectangle")){
-        out.println("submitType");    
+        out.println(submitType);    
             
         // parameters are name attributes in view pages
         // Here we're retrieving form content 
@@ -79,8 +80,42 @@ List result=null;
           result = rs.calcArea(lenght, width);
        
     }
+    
+    if (submitType.equals("circle")){
+        out.println(submitType);    
+            
+        // parameters are name attributes in view pages
+        // Here we're retrieving form content 
+        String radius = request.getParameter("radius");
+        
+        
+        // For some applications, we would not want to create a new one each time.
+        model.CircleService1 cs = new model.CircleService1();
+       
+        // Always a good idea to trim and/or validate input data
          
+          result = cs.calcArea(radius);
+       
+    }
          
+      
+    if (submitType.equals("triangle")){
+        out.println(submitType);    
+            
+        // parameters are name attributes in view pages
+        // Here we're retrieving form content 
+        String base = request.getParameter("base");
+        String height = request.getParameter("height");
+       
+        
+        // For some applications, we would not want to create a new one each time.
+        model.TriangleService1 rs = new model.TriangleService1();
+       
+        // Always a good idea to trim and/or validate input data
+         
+          result = rs.calcArea(base, height);
+       
+    }
          
         // Parameters are read only Request object properties, but attributes
         // are read/write. We can use attributes to store data for use on
