@@ -13,9 +13,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Rect/Circle/Triangle</title>
     </head>
-    <h1 align="center">Rectangle Circle Triangle Area (JSP)</h1>
+    <h3 align="center">Rectangle Circle Triangle Area (JSP)</h3>
     <body>
-        
+        <rect>
         <form id="calc" name="calc" method="POST" action="areaController3">
             Length: <input type ="text" id="length" name ="length">
             
