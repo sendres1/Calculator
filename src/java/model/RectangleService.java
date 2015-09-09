@@ -14,6 +14,8 @@ import java.util.List;
  */
 public class RectangleService {
 
+    public RectangleService(){}
+    
     public List calcArea(String length, String width) {
         double l = 0;
         double w = 0;

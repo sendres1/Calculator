@@ -67,7 +67,7 @@ public class AreaController extends HttpServlet {
         // Create a new instance of a model object
         // For some applications, we would not want to create a new one each time.
  //       BeerExpert be = new BeerExpert();
-        RectangleService rs = new RectangleService();
+        model.RectangleService rs = new model.RectangleService();
        
         // Always a good idea to trim and/or validate input data
         //List result = be.getBrands(c.trim());

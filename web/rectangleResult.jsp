@@ -22,7 +22,7 @@
         
         
         
-        Object objList = request.getAttribute("rectangleArea");
+        Object objList = request.getAttribute("area");
         List list = null;
         // cannot cast if null
         if(objList == null) {
