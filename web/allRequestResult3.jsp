@@ -15,7 +15,7 @@
     </head>
     <h3 align="center">Rectangle Circle Triangle Area (JSP)</h3>
     <body>
-        <rect>
+        <text> Area of Rectangle <text/>
         <form id="calc" name="calc" method="POST" action="areaController3">
             Length: <input type ="text" id="length" name ="length">
             
