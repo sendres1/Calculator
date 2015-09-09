@@ -59,8 +59,8 @@ public class AreaController3 extends HttpServlet {
         
     response.setContentType("text/html");
 
-    String rectangle = request.getParameter("rectangle");
-    out.println("rectangle" + rectangle);
+    String rectangle = request.getParameter("submit");
+    out.println("submit" + rectangle);
         // parameters are name attributes in view pages
         // Here we're retrieving form content 
         String lenght = request.getParameter("length");
