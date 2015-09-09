@@ -30,7 +30,7 @@ List area = new ArrayList();
             a = l * w;
             area.add(a);
             
-            //area.add("Area is " + a);
+            area.add("Area is " + a);
             
    
         } catch (NumberFormatException nfe) {

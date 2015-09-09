@@ -38,7 +38,7 @@
             // do something so program doesn't crash, like
             // here we create a list with an error message
            list = new ArrayList();
-          // list.add("Please enter values");
+           list.add("Please enter values");
         } else {
             // cast it
             list = (List)objList;
