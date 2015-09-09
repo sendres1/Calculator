@@ -21,21 +21,18 @@ public class RectangleService {
         double w = 0;
         double a = 0;
 List area = new ArrayList();
+
         try {
 
             l = Double.valueOf(length);
             w = Double.valueOf(width);
-
             
-    //   greet.add("tryit");
-
             a = l * w;
-            area.add(a);
+            area.add("Area is " + a);
 
-            
-
+   
         } catch (NumberFormatException nfe) {
-
+          area = null;
         }
 return area;
     }
