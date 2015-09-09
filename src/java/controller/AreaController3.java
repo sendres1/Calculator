@@ -8,6 +8,7 @@ package controller;
 import model.RectangleService;
 import java.io.IOException;
 import java.io.PrintWriter;
+import static java.lang.System.out;
 import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -58,6 +59,8 @@ public class AreaController3 extends HttpServlet {
         
     response.setContentType("text/html");
 
+    String rectangle = request.getParameter("rectangle");
+    out.println("rectangle" + rectangle);
         // parameters are name attributes in view pages
         // Here we're retrieving form content 
         String lenght = request.getParameter("length");
