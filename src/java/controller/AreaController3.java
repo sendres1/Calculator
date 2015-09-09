@@ -23,7 +23,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet(name = "areaController3", urlPatterns = {"/areaController3"})
 public class AreaController3 extends HttpServlet {
-       private static final String RESULT_PAGE = "allRequestResult.jsp";
+       private static final String RESULT_PAGE = "allRequestResult3.jsp";
 
    
      
