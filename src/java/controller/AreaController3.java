@@ -58,10 +58,13 @@ public class AreaController3 extends HttpServlet {
             throws ServletException, IOException {
         
     response.setContentType("text/html");
+List result=null;
 
     String submitType = request.getParameter("submit");
     out.println("submitType" + submitType);
-   // If (submitType = "rectangle"){};
+    if (submitType.equals("rectangle")){
+        out.println("submitType");    
+            
         // parameters are name attributes in view pages
         // Here we're retrieving form content 
         String lenght = request.getParameter("length");
@@ -73,9 +76,12 @@ public class AreaController3 extends HttpServlet {
        
         // Always a good idea to trim and/or validate input data
          
-         List result = rs.calcArea(lenght, width);
+          result = rs.calcArea(lenght, width);
        
-    
+    }
+         
+         
+         
         // Parameters are read only Request object properties, but attributes
         // are read/write. We can use attributes to store data for use on
         // another page.
@@ -97,5 +103,9 @@ public class AreaController3 extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
+
+    private void If(boolean equals) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
 }
