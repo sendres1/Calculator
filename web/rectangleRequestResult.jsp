@@ -14,7 +14,7 @@
     </head>
     <body>
         
-        <form id="calc" name="calc" method="POST" action="areaController">
+        <form id="calc" name="calc" method="POST" action="areaController2">
             Length: <input type ="text" id="length" name ="length">
             
             Width: <input type="text" id="width" name ="width">
