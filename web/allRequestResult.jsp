@@ -19,7 +19,7 @@
     <h3 align="center">Rectangle Circle Triangle Area (JSP)</h3>
     <body>
         <text> Area of Rectangle <text/>
-        <form id="calc" name="calc" method="POST" action="areaController3">
+        <form id="calc" name="calc" method="POST" action="areaControllerJSTL">
             Length: <input type ="text" id="length" name ="length">
             
             Width: <input type="text" id="width" name ="width">
@@ -29,7 +29,7 @@
         <br>
          <br>
         <text> Area of Circle <text/>
-        <form id="calc" name="calc" method="POST" action="areaController3">
+        <form id="calc" name="calc" method="POST" action="areaControllerJSTL">
             Radius: <input type ="text" id="length" name ="radius">
             
             <input type="submit" value ="circle" name="submit">
@@ -67,7 +67,7 @@
         <br>try: ${rec}
     </c:forEach>
         
-    <p><a href="form.html">Back
+    <p>
             
     </body>
 </html>
