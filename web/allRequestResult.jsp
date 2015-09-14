@@ -65,7 +65,7 @@
             
    
     <c:forEach var="rec" items="${area}" varStatus="rowCount">
-        <br>area: ${rec}
+        <br> ${rec}
     </c:forEach>
         
     <p>
