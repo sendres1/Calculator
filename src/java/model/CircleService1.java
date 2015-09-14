@@ -26,7 +26,7 @@ List area = new ArrayList();
 
             r = Double.valueOf(radius);
             
-            a = r* pi;
+            a = r*r* pi;
             area.add("Area is " + a);
 
    

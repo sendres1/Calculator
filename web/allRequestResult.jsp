@@ -14,6 +14,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="color.css">
         <title>Rect/Circle/Triangle</title>
     </head>
     <h3 align="center">Rectangle Circle Triangle Area (JSP)</h3>
