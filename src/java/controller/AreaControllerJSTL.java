@@ -24,7 +24,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet(name = "areaControllerJSTL", urlPatterns = {"/areaControllerJSTL"})
 public class AreaControllerJSTL extends HttpServlet {
-       private static final String RESULT_PAGE = "allRequestResult.jsp";
+       private static final String RESULT_PAGE = "bootstrapRequestResult.jsp";
 
    
      
