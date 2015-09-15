@@ -23,8 +23,10 @@
         <link rel="stylesheet" href="color.css">
         <title>Rect/Circle/Triangle</title>
     </head>
+    <div class="container">
     <h3 align="center">Rectangle Circle Triangle Area (JSP)</h3>
     <body>
+        <div class="row">
         <text> Area of Rectangle <text/>
         <form id="calc" name="calc" method="POST" action="areaControllerJSTL">
             Length: <input type ="text" id="length" name ="length">
@@ -32,7 +34,8 @@
             Width: <input type="text" id="width" name ="width">
             <input type="submit" value ="rectangle" name="submit">
         </form>
-        
+        <div/>
+        <div>
         <br>
          <br>
         <text> Area of Circle <text/>
@@ -51,8 +54,8 @@
             Height: <input type="text" id="height" name ="height">
             <input type="submit" value ="triangle" name="submit">
         </form>
-        
-        
+        </div>
+        </div>
         
         <p>
 
